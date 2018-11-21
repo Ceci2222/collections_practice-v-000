@@ -23,4 +23,10 @@ def reverse_array(integers)
 end
 
 def kesher_maker(strings)
+   strings.collect do |string|
+    string.split
+      string[2] = "$"
+    end
+  end
+end
   
