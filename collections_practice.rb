@@ -22,10 +22,10 @@ def reverse_array(integers)
   integers.reverse 
 end
 
-def kesha_maker(strings)
-   strings.collect do |string|
-    string.split
-      string[2] = "$"
+def kesha_maker(names)
+  names.each do |name|
+  name.split
+      name[2] = "$"
   end
 end
   
