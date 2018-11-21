@@ -28,4 +28,8 @@ def kesha_maker(names)
       name[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find do {|string| string.starts_with("a")}
+end
   
